@@ -2,8 +2,12 @@
     list-style: none; /** retirer la numerotation**/
     display: flex;
     justify-content: space-between;
-    padding: 0px;
     border-bottom: 2px #3687de solid; /**souligner les elements de liste**/
+    
+}
+
+ul{
+    padding: 0px; 
     margin: 0;
 }
 
@@ -21,7 +25,7 @@ li > a {
   color: #c4c4c4;
 
 }
-li{
+#topnav li{
     padding: 40px;
     position: relative; /**de lendroit ou tu devais etre ajoute 2px**/
     top: 2px;
@@ -33,3 +37,68 @@ body{
     background-color: #081f29;
     color: #c4c4c4;
 }
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px; /**marge superieur**/
+   
+
+}
+
+#cover{
+    margin-right: 48px;
+    width: 200px;
+    height: 350px;
+    border: 10px solid #354c56 ;
+}
+#stars{
+    display: flex;
+    list-style: none;
+    max-width: 200px;
+    justify-content: space-between;
+
+}
+h1{
+    font-size: 100px;
+    color: #09fffd;
+    font-weight: 200;
+    margin: 0;
+}
+.tag{
+    padding: 18px 32px 12px 18px; 
+    background-color: #354c56;
+    font-family: sans-serif;
+    
+
+}
+#tag{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+
+
+.a{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 30px;
+    margin-top: 40px;
+    border-bottom: 2px #3687de solid;
+}
+.b{
+    border-bottom: 2px solid #09fffd;  
+    position: relative;
+    top: 2px;
+}
+   .c{
+       width: 400px;
+   }
+   .d{
+       padding: 8px 12px;
+       background-color: #09fffd;
+       width: 150px;
+       color: black;
+   }
